@@ -4,7 +4,7 @@ do{
 console.clear()
 
 function palindrome(str){
-    var re = /[^A-Za-z0–9]/g //Expressão regular pra retirar tudo de A-Z, a-z, 0-9 e teste expecífico pra palavra com símbolos "_"
+    var re = /[^A-Za-z0-9]/g //Expressão regular pra retirar tudo de A-Z, a-z, 0-9 e teste expecífico pra palavra com símbolos "_"
    
     var lowRegStr = str.toLowerCase().replace(re, ''); //Expressão pra tornar as palavras para lower case e para apagar os espaços entre as palavras para fazer a verificação
 
